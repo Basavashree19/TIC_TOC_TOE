@@ -10,10 +10,6 @@ Compile the Program:
 Use the gcc compiler (assuming you have GCC installed, which is common on Unix-like systems and can be installed on Windows with MinGW or Cygwin).
 
 gcc tic_tac_toe.c
-
-
-
-
 Execution:
 Run the Program:
 
@@ -28,7 +24,7 @@ Following these steps should allow us to compile and run your Tic Tac Toe game e
 
 
 
-Project Overview
+Project Overview:
 This project implements a command-line based Tic Tac Toe game in C. It allows two players to take turns placing their marks ('0' and '1') on a 3x3 board until one player wins or the game ends in a draw.
 
 
@@ -44,6 +40,7 @@ Gameplay:
 Players choose their marks ('0' for Player 1 and '1' for Player 2).
 Players alternate turns, placing their marks on an empty cell of the board.
 The game continues until one player achieves a winning combination of three marks in a row, column, or diagonal, or until the board is full without a winner (resulting in a draw).
+Additional Notes or Known Issues:
 
 Input Validation: The program validates user input for moves. It prompts players to enter row and column numbers (e.g., 1 2) and ensures the input is within valid range (1 to 3).
 
